@@ -20,3 +20,5 @@ reddit = praw.Reddit(
 
 The script `concat.py` is used to concatenate all daily CSV files into one big 
 CSV file. 
+
+The script `tag_frequency.py` is used to generate a Word Cloud chart.
