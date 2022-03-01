@@ -1,0 +1,22 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib-base=3.3.4
+  - numpy=1.21.2
+  - pandas=1.4.1
+  - pillow=7.2.0
+  - pip=21.2.4
+  - python=3.9.7
+  - wordcloud=1.8.1
+  - pip:
+    - charset-normalizer==2.0.12
+    - click==8.0.4
+    - idna==3.3
+    - praw==7.5.0
+    - prawcore==2.3.0
+    - psaw==0.1.0
+    - requests==2.27.1
+    - update-checker==0.18.0
+    - urllib3==1.26.8
+    - websocket-client==1.2.3
