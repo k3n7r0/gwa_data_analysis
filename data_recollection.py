@@ -8,7 +8,8 @@ from psaw import PushshiftAPI
 
 # Generate start and end date for a day 
 # for the range between start_date and end_date
-def daterange(start_date, end_date): for n in range(int((end_date - start_date).days)):
+def daterange(start_date, end_date): 
+    for n in range(int((end_date - start_date).days)):
         start = start_date + timedelta(n)
         end = start_date + timedelta(n+1)
         yield (datetime(start.year, start.month, start.day), 
