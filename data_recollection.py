@@ -36,7 +36,7 @@ start_date = date(2021, 1, 1)
 end_date = date(2021, 1, 1)
 
 # directory on wich to store the data
-basecorpus = './test/'
+basecorpus = './datasets/'
 
 # Iteration through subreddits to recollect data
 for subreddit in subreddits:
