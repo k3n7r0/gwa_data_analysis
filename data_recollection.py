@@ -33,7 +33,7 @@ reddit = praw.Reddit(
 # and the start and end date
 subreddits = ['gonewildaudio']
 start_date = date(2021, 1, 1)
-end_date = date(2021, 1, 1)
+end_date = date(2022, 1, 1)
 
 # directory on wich to store the data
 basecorpus = './datasets/'
